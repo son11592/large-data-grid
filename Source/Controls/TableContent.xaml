@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="LargeDataGrid.Source.Controls.TableContent"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="800">
+    <DataGrid Name="TableData"
+              Background="Transparent" BorderThickness="0" BorderBrush="#DFDFDF"
+              ScrollViewer.CanContentScroll="true" ScrollViewer.PanningMode="Both"
+              VerticalGridLinesBrush="#DFDFDF" HorizontalGridLinesBrush="#DFDFDF"
+              HeadersVisibility="Column" ColumnWidth="150" CanUserAddRows="False" CanUserDeleteRows="False" AutoGenerateColumns="False"
+              EnableRowVirtualization="True" AlternationCount="2"
+              Sorting="SortHandler" SelectionChanged="RowDidChange" PreparingCellForEdit="CellDidBeginditing" CellEditEnding="CellDidEndEditing"
+              PreviewKeyDown="Keydown"
+              VirtualizingPanel.IsVirtualizing="True" VirtualizingPanel.VirtualizationMode="Recycling" VirtualizingPanel.IsContainerVirtualizable="True" VirtualizingPanel.ScrollUnit="Pixel"
+              VirtualizingPanel.CacheLengthUnit="Pixel" VirtualizingPanel.IsVirtualizingWhenGrouping="True" />
+</UserControl>
