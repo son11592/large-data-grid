@@ -69,7 +69,7 @@ namespace LargeDataGrid.Source.Controls
 
                 var random = new Random();
                 var names = new List<string> { "Aaren", "Aarika", "Abagael", "Abagail", "Abbe", "Abbey", "Abbi", "Abbie", "Abby", "Abbye", "Abigael", "Abigail", "Abigale", "Abra", "Ada", "Adah", "Adaline", "Adan", "Adara", "Adda", "Addi", "Addia", "Addie", "Addy", "Adel", "Adela", "Adelaida", "Adelaide", "Adele", "Adelheid", "Adelice", "Adelina", "Adelind", "Adeline", "Adella", "Adelle", "Adena", "Adey", "Adi", "Adiana", "Adina", "Adora", "Adore", "Adoree", "Adorne", "Adrea", "Adria" };
-                for (int j = 0; j < 1000; j++)
+                for (int j = 0; j < 1000000; j++)
                 {
                     var fields = new List<FieldModel>();
                     for (int k = 0; k < cols.Count; k++)
