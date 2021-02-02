@@ -41,10 +41,12 @@ namespace LargeDataGrid.Source.Controls
         public TableContent()
         {
             InitializeComponent();
-            TableData.ItemsSource = Source.DefaultView;
-
+            this.DataContext = this;
             RenderData();
+            View = Source.DefaultView;
         }
+
+        public DataView View { get; set; }
 
         private void RenderData()
         {

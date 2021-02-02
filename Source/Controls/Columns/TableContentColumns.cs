@@ -14,17 +14,17 @@ namespace LargeDataGrid.Source.Controls.Columns
 
         public void UpdateCellStyle()
         {
-            var key = Column.ToString();
+            var key = Column.Index.ToString();
             var cellStyle = new Style(typeof(DataGridCell));
-            cellStyle.Setters.Add(new Setter(DataGridCell.BackgroundProperty, null));
+            cellStyle.Setters.Add(new Setter(Control.BackgroundProperty, null));
             var newTrigger = new DataTrigger { Binding = new Binding($"{key}_background"), Value = "New" };
-            newTrigger.Setters.Add(new Setter(DataGridCell.BackgroundProperty, Brushes.Green));
+            newTrigger.Setters.Add(new Setter(Control.BackgroundProperty, Brushes.Green));
             var deletedTrigger = new DataTrigger { Binding = new Binding($"{key}_background"), Value = "Deleted" };
-            deletedTrigger.Setters.Add(new Setter(DataGridCell.BackgroundProperty, Brushes.Red));
+            deletedTrigger.Setters.Add(new Setter(Control.BackgroundProperty, Brushes.Red));
             var modifiedTrigger = new DataTrigger { Binding = new Binding($"{key}_background"), Value = "Modified" };
-            modifiedTrigger.Setters.Add(new Setter(DataGridCell.BackgroundProperty, Brushes.Yellow));
-            var focusedTrigger = new Trigger { Property = DataGridCell.IsFocusedProperty, Value = true };
-            focusedTrigger.Setters.Add(new Setter(DataGridCell.BorderBrushProperty, Brushes.DarkRed));
+            modifiedTrigger.Setters.Add(new Setter(Control.BackgroundProperty, Brushes.Yellow));
+            var focusedTrigger = new Trigger { Property = UIElement.IsFocusedProperty, Value = true };
+            focusedTrigger.Setters.Add(new Setter(Control.BorderBrushProperty, Brushes.DarkRed));
             cellStyle.Triggers.Add(newTrigger);
             cellStyle.Triggers.Add(deletedTrigger);
             cellStyle.Triggers.Add(modifiedTrigger);
