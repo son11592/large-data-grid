@@ -2,10 +2,14 @@ C:\Users\Son\Documents\projects\LargeDataGrid\bin\Debug\LargeDataGrid.exe.config
 C:\Users\Son\Documents\projects\LargeDataGrid\bin\Debug\LargeDataGrid.exe
 C:\Users\Son\Documents\projects\LargeDataGrid\bin\Debug\LargeDataGrid.pdb
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\LargeDataGrid.csprojAssemblyReference.cache
+C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\Source\Controls\TableContent.baml
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\MainWindow.g.cs
+C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\Source\Controls\TableContent.g.cs
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\App.g.cs
+C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\LargeDataGrid_MarkupCompile.cache
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\LargeDataGrid_MarkupCompile.lref
+C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\App.baml
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\MainWindow.baml
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\LargeDataGrid.g.resources
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\LargeDataGrid.Properties.Resources.resources
@@ -13,7 +17,3 @@ C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\LargeDataGrid.csproj.Gen
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\LargeDataGrid.csproj.CoreCompileInputs.cache
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\LargeDataGrid.exe
 C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\LargeDataGrid.pdb
-C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\Source\Controls\TableContent.baml
-C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\Source\Controls\TableContent.g.cs
-C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\GeneratedInternalTypeHelper.g.cs
-C:\Users\Son\Documents\projects\LargeDataGrid\obj\Debug\App.baml
